@@ -1,0 +1,50 @@
+\begin{thebibliography}{1}
+
+\bibitem{deWaard:2007}
+Anita de~Waard.
+\newblock A pragmatic structure for research articles.
+\newblock In {\em Proceedings of the 2nd international conference on Pragmatic
+  web}, ICPW '07, pages 83--89, New York, NY, USA, 2007. ACM.
+
+\bibitem{gibaldMLA:2009}
+J.~Gibaldi and Modern Language~Association of~America.
+\newblock {\em MLA handbook for writers of research papers}.
+\newblock Writing guides. Reference. Modern Language Association of America,
+  2009.
+
+\bibitem{gopen:1990}
+G.D. Gopen and J.A. Swan.
+\newblock {The Science of Scientific Writing}.
+\newblock {\em American Scientist}, 78(6):550--558, 1990.
+
+\bibitem{Lamport:LDP94}
+Leslie Lamport.
+\newblock {\em \LaTeX: A Document Preparation System}.
+\newblock Addison--Wesley Pub.\ Co., Reading, MA, 1986.
+
+\bibitem{Leo:96}
+Coromoto Le\'on.
+\newblock {\em Dise\~no e implementaci\'on de lenguajes orientados al modelo
+  PRAM}.
+\newblock PhD thesis, 1996.
+
+\bibitem{869377}
+Guido Rossum.
+\newblock Python library reference.
+\newblock Technical report, Amsterdam, The Netherlands, The Netherlands, 1995.
+
+\bibitem{869369}
+Guido Rossum.
+\newblock Python reference manual.
+\newblock Technical report, Amsterdam, The Netherlands, The Netherlands, 1995.
+
+\bibitem{869378}
+Guido Rossum.
+\newblock Python tutorial.
+\newblock Technical report, Amsterdam, The Netherlands, The Netherlands, 1995.
+
+\bibitem{URL:XML}
+ACM~LaTeX Style.
+\newblock http://www.acm.org/publications/latex\_style/.
+
+\end{thebibliography}

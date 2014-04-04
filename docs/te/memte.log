@@ -1,0 +1,239 @@
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.2.11)  4 APR 2014 09:35
+entering extended mode
+ %&-line parsing enabled.
+**memte.tex
+(./memte.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, usenglishmax, dumylang, noh
+yphenation, loaded.
+(/usr/share/texmf-texlive/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texmf-texlive/tex/latex/base/size11.clo
+File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texmf-texlive/tex/latex/graphics/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+(/etc/texmf/tex/latex/config/graphics.cfg
+File: graphics.cfg 2009/08/28 v1.8 graphics configuration of TeX Live
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+(/usr/share/texmf-texlive/tex/latex/graphics/dvips.def
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+(/usr/share/texmf-texlive/tex/latex/graphics/epsfig.sty
+Package: epsfig 1999/02/16 v1.7a (e)psfig emulation (SPQR)
+\epsfxsize=\dimen105
+\epsfysize=\dimen106
+)
+(/usr/share/texmf-texlive/tex/latex/base/inputenc.sty
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks15
+\inpenc@posthook=\toks16
+
+(/usr/share/texmf-texlive/tex/latex/base/latin1.def
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+(/usr/share/texmf-texlive/tex/generic/babel/babel.sty
+Package: babel 2008/07/06 v3.8l The Babel package
+
+(/usr/share/texmf-texlive/tex/generic/babel/spanish.ldf
+Language: spanish.ldf 2009/01/02 v5.0h Spanish support from the babel system
+
+(/usr/share/texmf-texlive/tex/generic/babel/babel.def
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count88
+\U@D=\dimen107
+)
+
+Package babel Warning: No hyphenation patterns were loaded for
+(babel)                the language `Spanish'
+(babel)                I will use the patterns loaded for \language=0 instead.
+
+\l@spanish = a dialect from \language0
+\es@datefmt=\count89
+\es@quottoks=\toks17
+\es@quotdepth=\count90
+Package babel Info: Making " an active character on input line 492.
+Package babel Info: Making . an active character on input line 585.
+Package babel Info: Making < an active character on input line 630.
+Package babel Info: Making > an active character on input line 630.
+)) (/usr/share/texmf-texlive/tex/latex/base/alltt.sty
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+(./templates/algorithm.sty
+
+LaTeX Warning: You have requested package `templates/algorithm',
+               but the package provides `algorithm'.
+
+Package: algorithm 
+Document Style `algorithm' - floating environment
+(/usr/share/texmf-texlive/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count91
+\float@exts=\toks18
+\float@box=\box26
+\@float@everytoks=\toks19
+\@floatcapt=\box27
+)
+(/usr/share/texmf-texlive/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\@float@every@algorithm=\toks20
+\c@algorithm=\count92
+)
+(./templates/algorithmic.sty
+
+LaTeX Warning: You have requested package `templates/algorithmic',
+               but the package provides `algorithmic'.
+
+Package: algorithmic 2006/06/02
+Document Style `algorithmic' - environment
+(/usr/share/texmf-texlive/tex/latex/tools/calc.sty
+Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count93
+\calc@Bcount=\count94
+\calc@Adimen=\dimen108
+\calc@Bdimen=\dimen109
+\calc@Askip=\skip43
+\calc@Bskip=\skip44
+LaTeX Info: Redefining \setlength on input line 76.
+LaTeX Info: Redefining \addtolength on input line 77.
+\calc@Ccount=\count95
+\calc@Cskip=\skip45
+)
+\c@ALC@line=\count96
+\c@ALC@rem=\count97
+\c@ALC@depth=\count98
+\ALC@tlm=\skip46
+\algorithmicindent=\skip47
+) (./templates/multirow.sty
+\bigstrutjot=\dimen110
+) (/usr/share/texmf-texlive/tex/plain/amsfonts/amssym.def
+\msafam=\mathgroup4
+\msbfam=\mathgroup5
+\eufmfam=\mathgroup6
+) (./memte.aux)
+\openout1 = `memte.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
+LaTeX Font Info:    ... okay on input line 87.
+File: images/logotipo-secundario-ULL.eps Graphic file (type eps)
+
+<images/logotipo-secundario-ULL.eps>
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <14.4> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 111.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <10.95> on input line 114.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <8> on input line 114.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 114.
+ [1
+
+] [2
+
+] (./memte.toc)
+\tf@toc=\write3
+\openout3 = `memte.toc'.
+
+ [1
+
+] [2
+
+] (./memte.lof)
+\tf@lof=\write4
+\openout4 = `memte.lof'.
+
+ [3
+
+] [4
+
+] (./memte.lot)
+\tf@lot=\write5
+\openout5 = `memte.lot'.
+
+ [5
+
+] [6
+
+]
+Cap\'{\i }tulo 1.
+(./tex/cap1.tex) [1
+
+]
+Cap\'{\i }tulo 2.
+(./tex/cap2.tex) [2
+
+]
+Cap\'{\i }tulo 3.
+(./tex/cap3.tex
+File: images/figura1.eps Graphic file (type eps)
+ <images/figura1.eps> (./tables/table.tex)) [3
+
+] [4]
+Cap\'{\i }tulo 4.
+(./tex/cap4.tex) [5
+
+] [6
+
+]
+Ap\'{e}ndice A.
+(./tex/apendice1.tex) [7
+
+]
+Ap\'{e}ndice B.
+(./tex/apendice2.tex) (./memte.bbl [8
+
+]) [9
+
+] (./memte.aux) ) 
+Here is how much of TeX's memory you used:
+ 1765 strings out of 495062
+ 21374 string characters out of 1182644
+ 75798 words of memory out of 3000000
+ 4897 multiletter control sequences out of 15000+50000
+ 13237 words of font info for 48 fonts, out of 3000000 for 9000
+ 28 hyphenation exceptions out of 8191
+ 25i,8n,27p,208b,288s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on memte.dvi (17 pages, 14732 bytes).

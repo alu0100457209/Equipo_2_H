@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.10pt}
+\beamer@sectionintoc {1}{Introducci\IeC {\'o}n a Taylor}{5}{0}{1}
+\beamer@sectionintoc {2}{C\IeC {\'o}digo python}{6}{0}{2}
+\beamer@subsectionintoc {2}{1}{C\IeC {\'a}lculo polinomio de Taylor}{6}{0}{2}
+\beamer@subsectionintoc {2}{2}{Representaci\IeC {\'o}n de gr\IeC {\'a}ficas}{8}{0}{2}
+\beamer@sectionintoc {3}{Gr\IeC {\'a}ficas}{9}{0}{3}

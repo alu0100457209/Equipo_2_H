@@ -2,49 +2,44 @@ This is BibTeX, Version 0.99c (TeX Live 2009/Debian)
 The top-level auxiliary file: memte.aux
 The style file: plain.bst
 Database file #1: bib/references.bib
-Warning--empty school in Leo:96
-Warning--empty institution in 869377
-Warning--empty institution in 869369
-Warning--empty institution in 869378
-You've used 9 entries,
+You've used 1 entry,
             2118 wiz_defined-function locations,
-            548 strings with 4954 characters,
-and the built_in function-call counts, 2222 in all, are:
-= -- 225
-> -- 75
-< -- 1
-+ -- 32
-- -- 22
-* -- 117
-:= -- 396
-add.period$ -- 28
-call.type$ -- 9
-change.case$ -- 37
+            504 strings with 4114 characters,
+and the built_in function-call counts, 239 in all, are:
+= -- 20
+> -- 7
+< -- 0
++ -- 3
+- -- 2
+* -- 11
+:= -- 48
+add.period$ -- 3
+call.type$ -- 1
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 13
-duplicate$ -- 96
-empty$ -- 189
-format.name$ -- 22
-if$ -- 462
+cite$ -- 1
+duplicate$ -- 12
+empty$ -- 23
+format.name$ -- 2
+if$ -- 48
 int.to.chr$ -- 0
-int.to.str$ -- 9
-missing$ -- 6
-newline$ -- 47
-num.names$ -- 18
-pop$ -- 46
+int.to.str$ -- 1
+missing$ -- 2
+newline$ -- 8
+num.names$ -- 2
+pop$ -- 7
 preamble$ -- 1
-purify$ -- 29
+purify$ -- 3
 quote$ -- 0
-skip$ -- 65
+skip$ -- 6
 stack$ -- 0
-substring$ -- 95
-swap$ -- 13
-text.length$ -- 1
+substring$ -- 5
+swap$ -- 1
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 32
-warning$ -- 4
-while$ -- 23
-width$ -- 10
-write$ -- 99
-(There were 4 warnings)
+type$ -- 2
+warning$ -- 0
+while$ -- 2
+width$ -- 2
+write$ -- 13

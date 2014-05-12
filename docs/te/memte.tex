@@ -2,6 +2,9 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \usepackage[dvips]{graphicx}
+%\usepackage{graphicx}
+%\usepackage{graphicsx}
+%\usepackage[dvips]{graphics}
 \usepackage[dvips]{epsfig}
 \usepackage[latin1]{inputenc}
 \usepackage[spanish]{babel}
@@ -9,6 +12,10 @@
 \usepackage{templates/algorithm}
 \usepackage{templates/algorithmic}
 \usepackage{templates/multirow}
+%\usepackage{hyperref}
+
+
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -60,7 +67,7 @@
 % Format
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-%%\topmargin -4 mm
+\topmargin -4 mm
 %\topmargin -21 mm
 %\headheight 10 mm
 %\headsep 10 mm
@@ -105,15 +112,17 @@
 
 \HRule
 \begin{center}
-        {\Huge Título del trabajo} \\[2.5mm] 
-        {\Huge Subtítulo} \\[2.5mm]
-        {\Large Autor (o autores)} \\[5mm]
-        {\Large \textit{Grupo ($1\mid2$) }} \\[5mm]
+        {\Huge Series de Polinomio de Taylor} \\[2.5mm] 
+        {\Huge Cos(x)} \\[2.5mm]
+        {\Large Sergio \'Alvarez Fern\'andez\\
+        Cirilo Fleitas Rufino\\
+        Rayco Hern\'andez Delgado} \\[5mm]
+        {\Large \textit{Grupo ($2H$) }} \\[5mm]
 
 
-        {\em Técnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[5mm]
-        Lenguajes y Sistemas Informáticos \\[5mm]
-        Facultad de Matemáticas \\[5mm]
+        {\em T\'ecnicas Experimentales. $1^{er}$ curso. $2^{do}$ semestre} \\[5mm]
+        Lenguajes y Sistemas Inform\'aticos \\[5mm]
+        Facultad de Matem\'aticas \\[5mm]
         
         Universidad de La Laguna \\
 \end{center}
@@ -126,40 +135,39 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage{\pagestyle{empty}\cleardoublepage}
+%\newpage{\pagestyle{empty}\cleardoublepage}
 
 \pagestyle{myheadings} %my head defined by markboth or markright
 % No funciona bien \markboth sin "twoside" en \documentclass, pero al
 % ponerlo se dan un montón de errores de underfull \vbox, con lo que no se
 % ha puesto.
-\markboth{Nombre del alumno}{Título del trabajo}
+\markboth{}{}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Numeracion en romanos
-\renewcommand{\thepage}{\roman{page}}
+\renewcommand{\thepage}{\arabic{page}}
 \setcounter{page}{1}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-\tableofcontents
+1\tableofcontents
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage{\pagestyle{empty}\cleardoublepage}
+%\newpage{\pagestyle{empty}\cleardoublepage}
 
 \listoffigures
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage{\pagestyle{empty}\cleardoublepage}
+%\newpage{\pagestyle{empty}\cleardoublepage}
 
-\listoftables
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\newpage{\pagestyle{empty}\cleardoublepage}
+%\newpage{\pagestyle{empty}\cleardoublepage}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %Numeracion a partir del capitulo I
-\renewcommand{\thepage}{\arabic{page}}
-\setcounter{page}{1}
+
 
 \setlength{\parindent}{5mm}
 
@@ -170,10 +178,12 @@
 \input{tex/cap1.tex}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 \chapter{Fundamentos teóricos}
 \label{chapter:teo}
 
 \input{tex/cap2.tex}
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Procedimiento experimental}
@@ -194,15 +204,12 @@
 \thispagestyle{empty}
 \begin{appendix}
 
-\chapter{Título del Apéndice 1}
+\chapter{Código python}
 \label{appendix:1}
 
 \input{tex/apendice1.tex}
 
-\chapter{Título del Apéndice 2}
-\label{appendix:2}
 
-\input{tex/apendice2.tex}
 
 \end{appendix}
 
@@ -212,7 +219,7 @@
 
 
 \bibliography{bib/references}
-\nocite{*}
+%\nocite{*}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 

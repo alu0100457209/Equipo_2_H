@@ -1,26 +1,130 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Chapter 2: Fundamentos Teóricos 
+% Chapter 2: Fundamentos Te\'oricos 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-En este capítulo se han de presentar los antecedentes teóricos y prácticos que
-apoyan el tema objeto de la investigación.
+En c\'alculo, el teorema de Taylor, recibe su nombre del matem\'atico brit\'anico Brook Taylor, quien lo enunci\'o con mayor generalidad en 1712, aunque previamente James Gregory lo hab\'ia descubierto en 1671. Este teorema permite obtener aproximaciones polin\'omicas de una funci\'on en un entorno de cierto punto en que la funci\'on sea diferenciable. Adem\'as el teorema permite acotar el error obtenido mediante dicha estimaci\'on.
 
 %++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-\section{Primer apartado del segundo capítulo}
+\section{Teorema de Taylor}
 \label{2:sec:1}
+Este teorema permite aproximar una funci\'on derivable en el entorno reducido alrededor de un punto $a \in \mbox {(a, d)}$ mediante un polinomio cuyos coeficientes dependen de las derivadas de la funci\'on en ese punto. M\'as formalmente, si $\ n \ge 0$ es un entero y \ f una funci\'on que es derivable \ n veces en el intervalo cerrado [\ a, \ x] y \ n+1 veces en el intervalo abierto (\ a, \ x), entonces se cumple que:
+
+(1a)
+  \[f(x) = f(a)
+  + \frac{f'(a)}{1!}(x - a)
+  + \frac{f^{(2)}(a)}{2!}(x - a)^2
+  + \cdots
+  + \frac{f^{(n)}(a)}{n!}(x - a)^n
+  + R_n(f)\]
+
+O en forma compacta
+
+(1b) \[f(x) = \sum_{k=0}^n \frac{f^{(k)}(a)}{k!}(x - a)^k + R_n(f)\]
+
+Donde $\ k!$ denota el factorial de $\ k, y R_n(f)\,$ es el resto, t\'ermino que depende de \ x y es pequeño si \ x est\'a pr\'oximo al punto \ a. Existen dos expresiones para \ R que se mencionan a continuaci\'on:
+
+(2a)
+\[R_n(f) = \frac{f^{(n+1)}(\xi)}{(n+1)!} (x-a)^{n+1}\]
+
+donde \ a y \ x, pertenecen a los n\'umeros reales, $\ n$ a los enteros y $\ \xi$ es un n\'umero real entre \ a y \ x:
+
+(2b)
+\[R_n(f) = \int_a^x \frac{f^{(n+1)} (t)}{n!} (x - t)^n \, dt\]
+
+Si $R_n(f)\,$ es expresado de la primera forma, se le denomina T\'ermino complementario de Lagrange, dado que el Teorema de Taylor se expone como una generalizaci\'on del Teorema del valor medio o Teorema de Lagrange, mientras que la segunda expresi\'on de R muestra al teorema como una generalizaci\'on del Teorema fundamental del c\'alculo integral.
+
+Para algunas funciones $\ f(x),$ se puede probar que el resto, $\ R_n(f),$ se aproxima a cero cuando $\ n$ se acerca al $\infty$; dichas funciones pueden ser expresadas como series de Taylor en un entorno reducido alrededor de un punto $\ a$ y son denominadas funciones anal\'iticas.
+
+El teorema de Taylor con $\ R_n(f)$ expresado de la segunda forma es tambi\'en v\'alido si la funci\'on $\ f$ tiene n\'umeros complejos o valores vectoriales. Adem\'as existe una variaci\'on del teorema de Taylor para funciones con m\'ultiples variables.
+
+ 
+ 
+ 
+ 
+ 
+ 
   En \LaTeX{}~\cite{Lamport:LDP94} es sencillo escribir expresiones
-matemáticas como $a=\sum_{i=1}^{10} {x_i}^{3}$
-y deben ser escritas entre dos símbolos \$.
-Los superíndices se obtienen con el símbolo \^{}, y
-los subíndices con el símbolo \_.
+matem\'aticas como $a=\sum_{i=1}^{10} {x_i}^{3}$
+y deben ser escritas entre dos s\'imbolos \$.
+Los super\'indices se obtienen con el s\'imbolo \^{}, y
+los sub\'indices con el s\'imbolo \_.
 Por ejemplo: $x^2 \times y^{\alpha + \beta}$.
-También se pueden escribir fórmulas centradas:
-\[h^2=a^2 + b^2 \]
 
-\section{Segundo apartado del segundo capítulo}
+
+\subsection{Demostraci\'on}
+
+La demostraci\'on de la fórmula (1a), con el resto de la forma (2a), se sigue trivialmente del teorema de Rolle aplicado a la función:
+
+\[F(y) = f(x) - f(y) - \frac{f'(y)}{1!}(x-y) - \dots - \frac{f^{(n)}(y)}{n!}(x-y)^n\]
+
+Un c\'alculo rutinario permite ver que la derivada de esta funci\'on cumple que:
+
+\[F'(y) = -\frac{f^{(n+1)}(y)}{n!}(x-y)^n\]
+
+Se define ahora la funci\'on G como:
+
+\[G(y) = F(y) - \left(\frac{x-y}{x-a}\right)^{n+1}F(a)\] 
+
+Es evidente que esta funci\'on cumple $\scriptstyle G(a) = G(x) = 0$, y al ser esta funci\'on diferenciable, por el teorema de Rolle se sigue que:
+
+\[\exists \xi\in(x,a): G'(\xi) = 0\]
+
+Y como:
+
+\[0 = G'(\xi) = F'(\xi)+(n+1) \frac{(x-\xi)^n}{(x-a)^{n+1}}F(a)\]
+
+Se obtiene finalmente que:
+
+\[F(a)=\frac{f^{(n+1)}(\xi)}{(n+1)!}(x-a)^{n+1}\]
+
+Y sustituyendo en esta f\'ormula la definici\'on de F(a), queda precisamente la f\'ormula (1a) con la forma del resto (2a).
+
+\subsection{Propiedades}
+
+ $\alpha,\beta \in\mbox{R}$, $f$ y $g$ funciones.\\
+ \\
+(1)
+$T_n(\alpha f+\beta g)=\alpha T_n(f)+\beta T_n(g)$\\ \\
+(2)
+$T_n( f\cdot g)= T_n(f)\cdot T_n(g)-${t\'erminos de orden $> n$}\\ \\
+(3)
+${\displaystyle T_n(f/g)=\frac{T_n(f)}{T_n(g)} }$ "haciendo divisi\'on larga hasta $n$"\\ \\
+(4)
+$T_n( f\circ g)= T_n(f)\circ T_n(g)-${t\'erminos de orden $> n$}\\ \\
+(5)
+$[T_n(f)]'=T_{n-1}(f')$\\ \\
+(6)
+${\displaystyle \int_a^x T_n(f)(t) dt= T_{n+1}(\int_a^x)f(t) dt }$\\ \\
+(6)'
+${\displaystyle \int T_n(f) =T_{n+1}(\int f)+K }$,      $K\in\mbox{R}$.\\ \\
+
+
+\section{Coseno}
 \label{2:sec:2}
-  Primer párrafo de la segunda sección.
 
+En trigonometr\'ia el coseno (abreviado cos) de un \'angulo agudo en un tri\'angulo rect\'angulo se define como la raz\'on entre el cateto adyacente a dicho \'angulo y la hipotenusa:
+
+    \[cos(\alpha)={b}/{c}\]
+    
+
+En virtud del Teorema de Tales, este n\'umero no depende del tri\'angulo rect\'angulo escogido y, por lo tanto, est\'a bien construido y define una funci\'on del \'angulo $\alpha$.
+
+\section{Aproximaciones}
+\label{3:sec:3}
+Es una representaci\'on inexacta que, sin embargo, es suficientemente fiel como para ser \'util. Aunque en matem\'aticas la aproximaci\'on t\'ipicamente se aplica a n\'umeros, tambi\'en puede aplicarse a objetos tales como las funciones matem\'aticas, figuras geom\'etricas o leyes f\'isicas.
+ 
+\subsection{Series de Potencias}
+
+
+En matem\'aticas, una serie de Taylor es una representaci\'on de una funci\'on como una infinita suma de t\'erminos.
+Estos t\'erminos se calculan a partir de las derivadas de la funci\'on para un determinado valor de la variable (respecto de la cual se deriva), lo que involucra un punto espec\'ifico sobre la funci\'on. Si esta serie est\'a centrada sobre el punto cero, se le denomina serie de McLaurin.
+
+Esta representaci\'on tiene tres ventajas importantes:
+
+La derivaci\'on e integraci\'on de una de estas series se puede realizar t\'ermino a t\'ermino, que resultan operaciones triviales.
+Se puede utilizar para calcular valores aproximados de la funci\'on.
+Es posible demostrar que, si es viable la transformaci\'on de una funci\'on a una serie de Taylor, es la \'optima aproximaci\'on posible.
+Algunas funciones no se pueden escribir como serie de Taylor porque tienen alguna singularidad. En estos casos normalmente se puede conseguir un desarrollo en serie utilizando potencias negativas de x (v\'ease Serie de Laurent. Por ejemplo $f(x) = exp(-1/x²)$ se puede desarrollar como serie de Laurent.

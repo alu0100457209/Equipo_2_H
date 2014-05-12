@@ -1,0 +1,15 @@
+%--------------------------------------------------------------------------
+\begin{table}[!ht]
+\begin{center}
+\begin{tabular}{|l|c|c|}
+\hline
+Nombre & Edad & Nota \\ \hline
+Pepe & 24 & 10 \\ \hline
+Juan & 19 & 8 \\ \hline
+Luis & 21 & 9 \\ \hline
+\end{tabular}
+\end{center}
+\caption{Mi primer cuadro de datos}
+\label{tab}
+\end{table}
+

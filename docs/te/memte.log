@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2014.2.11)  4 APR 2014 09:59
+This is pdfTeX, Version 3.1415926-1.40.10 (TeX Live 2009/Debian) (format=latex 2012.5.11)  12 MAY 2014 10:11
 entering extended mode
  %&-line parsing enabled.
 **memte.tex
@@ -140,100 +140,310 @@ LaTeX Info: Redefining \addtolength on input line 77.
 \msafam=\mathgroup4
 \msbfam=\mathgroup5
 \eufmfam=\mathgroup6
-) (./memte.aux)
+) (./memte.aux
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `fig' multiply defined.
+
+
+LaTeX Warning: Label `' multiply defined.
+
+)
 \openout1 = `memte.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 87.
-LaTeX Font Info:    ... okay on input line 87.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 94.
+LaTeX Font Info:    ... okay on input line 94.
 File: images/logotipo-secundario-ULL.eps Graphic file (type eps)
-
-<images/logotipo-secundario-ULL.eps>
+ <images/logotipo-secundario-ULL.eps>
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <14.4> on input line 111.
+(Font)              <14.4> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 111.
+(Font)              <7> on input line 120.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 114.
+(Font)              <10.95> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 114.
+(Font)              <8> on input line 123.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 114.
+(Font)              <6> on input line 123.
  [1
-
-] [2
 
 ] (./memte.toc)
 \tf@toc=\write3
 \openout3 = `memte.toc'.
 
- [1
-
-] [2
+ [2
 
 ] (./memte.lof)
 \tf@lof=\write4
 \openout4 = `memte.lof'.
 
- [3
 
-] [4
-
-] (./memte.lot)
-\tf@lot=\write5
-\openout5 = `memte.lot'.
-
- [5
-
-] [6
+[3
 
 ]
 Cap\'{\i }tulo 1.
-(./tex/cap1.tex) [1
+(./tex/cap1.tex) [4
 
 ]
 Cap\'{\i }tulo 2.
-(./tex/cap2.tex) [2
+(./tex/cap2.tex [5
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 87--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--103
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 87--103
+
+ []
+
+[6]
+Overfull \hbox (1.2239pt too wide) in paragraph at lines 108--109
+[]\OT1/cmr/m/n/10.95 En trigonometr^^S^^Pa el coseno (abre-vi-a-do cos) de un ^
+^Sangu-lo agu-do en un tri^^Sangu-lo rect^^Sangu-
+ []
+
+) [7] [8]
 Cap\'{\i }tulo 3.
 (./tex/cap3.tex
-File: images/imagen1.eps Graphic file (type eps)
- <images/imagen1.eps> (./tables/table.tex)) [3
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
 
-] [4]
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 12--15
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \vbox (badness 4995) has occurred while \output is active []
+
+ [9
+
+]
+File: Graficas.eps Graphic file (type eps)
+
+<Graficas.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+File: images/Graficascentro5.eps Graphic file (type eps)
+<images/Graficascentro5.eps>
+File: images/Graficas10.eps Graphic file (type eps)
+ <images/Graficas10.eps>)
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--193
+
+ []
+
+[10] [11] [12]
 Cap\'{\i }tulo 4.
-(./tex/cap4.tex) [5
+(./tex/cap4.tex) [13
 
-] [6
+] [14
 
 ]
 Ap\'{e}ndice A.
-(./tex/apendice1.tex) [7
+(./tex/apendice1.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15
 
 ]
-Ap\'{e}ndice B.
-(./tex/apendice2.tex) (./memte.bbl [8
+Overfull \hbox (2.92824pt too wide) in paragraph at lines 86--86
+[]\OT1/cmr/bx/n/14.4 Programa para rep-re-sen-tar grafi-ca-mente los poli-nomio
+s
+ []
 
-]) [9
+[16]
+Overfull \hbox (272.50053pt too wide) in paragraph at lines 150--150
+[]    \OT1/cmtt/m/n/9 print"Cargado %3d por ciento de las Graficas" %(100*i/(le
+n(calculotaylor.Errores))) # Calcula el % de los datos introducidos en el Grafi
+ca, as[]A-
+ []
 
-] (./memte.aux) ) 
+) (./memte.bbl [17]) [18
+
+] (./memte.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
 Here is how much of TeX's memory you used:
- 1767 strings out of 495062
- 21403 string characters out of 1182644
- 75798 words of memory out of 3000000
- 4899 multiletter control sequences out of 15000+50000
- 13237 words of font info for 48 fonts, out of 3000000 for 9000
+ 1714 strings out of 495062
+ 20903 string characters out of 1182644
+ 78798 words of memory out of 3000000
+ 4854 multiletter control sequences out of 15000+50000
+ 13541 words of font info for 49 fonts, out of 3000000 for 9000
  28 hyphenation exceptions out of 8191
- 25i,7n,27p,208b,286s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 25i,5n,27p,479b,371s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on memte.dvi (17 pages, 15380 bytes).
+Output written on memte.dvi (18 pages, 26012 bytes).
